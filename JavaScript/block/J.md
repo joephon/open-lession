@@ -38,3 +38,5 @@ name(1, 2)           // => 3
 
 函数可以有任意类型的返回值 ```Number``` ```String``` ```Array``` ```Object``` ```null``` ```undefined```
 
+甚至，函数也能返回函数 ```function```
+
