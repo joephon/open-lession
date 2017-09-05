@@ -1,48 +1,37 @@
 # ♦️ K 综合练习
 
-在 ```HTML``` 里，还有一个资源标签叫 script
+学习到这里，童鞋们总共掌握了 16 个标签、一条声明、一个注释
 
-script 的意思是：脚本，顾名思义 script 标签引入的定然是脚本语言了
+惊不惊喜，意不意外？
 
-没错，你猜对了，被嵌套在 ```<script />``` 标签里的正是 JS 
+为了方便童鞋巩固知识点，可以简单归纳为几句话
+
+5 根钢筋水泥
+2 处资源入口
+9 枚文本常客
+1 条声明
+1 个注释
 
 ### 栗子
 
 ```html
-<script>
-  var a = "niuB!"
-</script>
+<!-- 5 根钢筋水泥 -->
+<html /> <head /> <title /> <meta /> <body />
 
-<script src="https://newteo.com/static/js/demo.js"/>
-```
+<!-- 2 处资源入口 -->
+<style /> <script />
 
-嵌套在 script 标签里面的东东，叫做 ```JavaScript``` 也就是 ```JS```。 一句带过，不深究。
+<!-- 9 枚文本常客 -->
+<h1-6 /> <p /> <span /> <a /> 
 
-```html
+<!-- 1 条声明 -->
 <!DOCTYPE html>
-<html>
-  <head>
-    <script src="https://newteo.com/static/js/demo.js"/>
-    ...
-  </head>
-  <body>
-    <script>
-      var a = "niuB!"
-    </script>
-    ...
-    <script src="https://newteo.com/static/js/demo2.js"/>
-  </body>
-</html>
-``` 
+
+<!-- 1 个注释 -->
+```
 
 ## 小知识点
 
-script 标签是一种资源标签，用来引入 ```JS``` 代码
-
-可以被嵌套在 head 和 body 之间
-
-有两种书写方式，注意到了吗？自闭合、带 src 属性的模式，和开标签、闭标签模式
-
-作为资源标签，script 和 style 一样，即不是内联也不是块级哟
+掌握这些标签，你就可以编写最基本的网页啦～
 
 
