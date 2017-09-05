@@ -16,7 +16,7 @@ script 的意思是：脚本，顾名思义 script 标签引入的定然是脚�
 <script src="https://newteo.com/static/js/demo.js"/>
 ```
 
-嵌套在 script 标签里面的东东，叫做 ```JavaScript``` 也就是 ```JS``` 一句带过，不深究。
+嵌套在 script 标签里面的东东，叫做 ```JavaScript``` 也就是 ```JS```。 一句带过，不深究。
 
 ```html
 <!DOCTYPE html>
